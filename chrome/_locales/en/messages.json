@@ -7,9 +7,49 @@
     "message": "Provides end-to-end protection for your email using OpenPGP.",
     "description": "Description of the app."
   },
+  "usageDescription": {
+    "message": "E2EMail allows you to send protected emails using your Gmail account.",
+    "description": "Description of what the app does."
+  },
   "welcomeTitle": {
-    "message": "Get started",
-    "description": "Title for a screen that's shown to a first-time user of E2EMail."
+    "message": "Sign in",
+    "description": "Title for a screen that's shown to a not logged in user of E2EMail."
+  },
+  "placeHolderLatin": {
+    "message": "This allows E2Email to lorem ipsum lorem ipsum lorem ipsum",
+    "description": "to be changed once we get the text."
+  },
+  "signInAndPermissions": {
+    "message": "Sign in & permissions",
+    "description": "Title for a screen that's shown to a not logged in user of E2EMail."
+  },
+  "permissions": {
+    "message": "Gmail permissions",
+    "description": "Title for a screen that's shown to a logged in user of E2EMail who has not authorized the app."
+  },
+  "accessEmail": {
+    "message": "1. Access your email",
+    "description": "Title for a screen that's shown to a not logged in user of E2EMail."
+  },
+  "deleteEmail": {
+    "message": "2. Delete email in your Gmail inbox",
+    "description": "Title for giving access to delete mail in your Gmail inbox permission."
+  },
+  "logInEmailAccess": {
+    "message": "2. Give E2Email access to your email",
+    "description": "Title for a giving access to Gmail permission."
+  },
+  "logInDeleteAccess": {
+    "message": "3. Give E2Email access to delete mail your Gmail inbox",
+    "description": "Title for giving access to delete mail in your Gmail inbox permission."
+  },
+  "signInChrome": {
+    "message": "1. Sign in to Chrome",
+    "description": "Title for a screen that's shown to a not logged in user of E2EMail."
+  },
+  "openGmailSettings": {
+    "message": "Open Gmail Settings",
+    "description": "Title for a button that's shown to a not authorized user of E2EMail."
   },
   "appinfoTitle": {
     "message": "About E2EMail",
@@ -32,12 +72,16 @@
     "description": "Status message while an unencrypted mail is being sent to a friend to invite them to install E2EMail."
   },
   "welcomeHelp": {
-    "message": "In a few steps, you can send email securely with your GMail account.",
+    "message": "In order to encrypt messages using Gmail, E2Email needs you to:",
+    "description": "Informational text for a user giving them a reason to use E2EMail."
+  },
+  "authorizationHelp": {
+    "message": "In order to encrypt messages using Gmail, E2Email needs permissions to:",
     "description": "Informational text for a user giving them a reason to use E2EMail."
   },
   "signIn": {
-    "message": "Sign in to Gmail",
-    "description": "Button text to let the user know they are about to logged into Gmail."
+    "message": "Sign in to Chrome",
+    "description": "Button text to let the user know they are about to logged into Chrome."
   },
   "setupInfo": {
     "message": "Initializing a secure environment for $EMAIL$.",
@@ -72,6 +116,10 @@
   "recoverScreenTitle": {
     "message": "Recover Access",
     "description": "Title for a screen where the user can recover access to their account."
+  },
+  "recoveryCodeInput": {
+    "message": "Recovery code:",
+    "description": "Title for the instruction prior to the recovery code input box."
   },
   "recoverHelp": {
     "message": "You have previously installed E2EMail. Please enter your recovery code to access your encrypted mail.",
@@ -218,6 +266,22 @@
   "continue": {
     "message": "Continue",
     "description": "Verb to use on a button to indicate the next thing."
+  },
+   "getStarted": {
+    "message": "Get Started",
+    "description": "Verb to use on a button to get started with the app."
+  },
+   "setupAccount": {
+    "message": "Setup Account",
+    "description": "Verb to use on a button to indicate the start setting up a new account."
+  },
+  "endtoendProtection": {
+    "message": "End-to-end protection",
+    "description": "Describes the type of protection for the email service."
+  },
+   "recipientInfo": {
+    "message": "Only the recipient will be able to read your emails.",
+    "description": "Describes who will be able to read the encrypted emails user sends."
   },
   "completeSetup": {
     "message": "Complete Setup",
